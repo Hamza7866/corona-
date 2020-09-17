@@ -1,0 +1,40 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: url("./1.jpg") no-repeat center center/cover;
+}
+h1 {
+  text-align: center;
+  background: rgb(66, 78, 189);
+  color: aliceblue;
+  padding: 10px;
+}
+
+#map {
+  width: 100vh;
+  height: 100vh;
+}
+
+.bg-danger {
+  margin: 2px;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+
+  table {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    border: 2px solid red;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+  }
+}
